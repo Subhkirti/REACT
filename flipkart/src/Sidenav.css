@@ -1,0 +1,39 @@
+.side-nav{
+    width:20%;
+    background-color: white;
+    margin:0.7%;
+    position: absolute;
+    top:7.5rem;
+}
+.head, .content,.price{
+    padding:6%;
+    display: flex;
+    flex-direction: column;
+}
+.brand,.ratings{
+    padding:6%;
+}
+
+hr{
+    height: 1px;
+    background-color: rgb(241, 239, 239);
+    border: none;
+}
+.content h2{
+    font-size:0.8rem;
+}
+.content select{
+    outline:none;
+    border:none;
+    background-color: transparent;
+    color:rgb(139, 132, 132);
+}
+.content option{
+    outline:none;
+    border:none;
+}
+
+.content{
+    line-height: 2rem;
+}
+

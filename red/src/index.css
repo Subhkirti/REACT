@@ -1,0 +1,31 @@
+body {
+ font-family: arial;
+ text-align: center;
+}
+.card{
+  width:40%;
+  border:2px solid grey;
+  padding:2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+button{
+  background-color: red;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px 0 rgb(63, 60, 60);
+  padding: 5%;
+  color:white;
+  border: none;
+}
+i{
+  position: absolute;
+  right:3%;
+  top:3%;
+  font-size: 3rem;
+  color:red
+
+}
+img{
+  height:5rem;
+}
+
